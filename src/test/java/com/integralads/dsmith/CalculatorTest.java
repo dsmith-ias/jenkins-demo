@@ -13,6 +13,6 @@ public class CalculatorTest {
     @Test
     public void testMultiply() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(calculator.multiply(2, 3), 6);
+        Assert.assertEquals(calculator.multiply(2, 3), 7);
     }
 }
